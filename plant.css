@@ -1,0 +1,35 @@
+.canvas{
+    width: 600px;
+    height: 500px;
+    margin: 50px auto;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+h1 {
+    margin: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.plant-3{
+    width: 50%;
+    height: 50%;
+    background: url('plant3.PNG') no-repeat;;
+    margin: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.plant-4{
+    width: 50%;
+    height: 50%;
+    background: url('plant4.PNG') no-repeat;;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+
+}
