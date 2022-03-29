@@ -1,16 +1,24 @@
 h2 {
     background-color: black;
     color:purple;
+    text-align: center;
 
 }
 h1 {
     background-color: black;
     color:purple;
+    text-align: center;
 
 }
 body {
     background-color: black;
     color:purple;
+    text-align: center;
+}
+.bullets {
+    padding-left: 0; 
+    text-align:center;
+    list-style-type:none; 
 }
 .button1 {
     background-color: #c518aebd; /* purple */
