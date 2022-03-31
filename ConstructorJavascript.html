@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="Keywords_and_Constructors"></p>
+    <script>
+        function Vehicle(Make, Model, Year, Color) {
+            this.Vehicle_Make = Make;
+            this.Vehicle_Model = Model;
+            this.Vehicle_Year = Year;
+            this.Vehicle_Color = Color;
+        }
+
+         var Jack =  new Vehicle("Dodge","Viper","2021","Red");
+         var Emily = new Vehicle("Jeep","Trail Hawk","2020","White and Black");
+         var Erik = new Vehicle("Ford","Pinto","1971","Mustard");
+        
+        document.getElementById("Keywords_and_Constructors").innerHTML = 
+        "Erik drives a " + Erik.Vehicle_Color + " colored " + Erik.Vehicle_Model + " manufactured in " + Erik.Vehicle_Year;
+
+    </script>
+</body>
+</html>
