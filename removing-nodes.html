@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Removing Nodes Demo</title>
+    <style>
+        body {
+            font-size:24px;
+        }
+    </style>
+</head>
+<body>
+    <ul id="myList">
+<li>Ted</li>
+<li>Lily</li>
+<li>Marshall</li>
+<li>Robin</li>
+<li>Barney</li>
+    </ul>
+  <button type="button" onclick="removeListFirstChild()">Remove list first child with removeChild()</button>
+  <button type="button" onclick="removeAllListChildren()">Remove all list children with removeChild()</button>
+  <button type="button" onclick="removeList()">Remove entire list with remove()</button>
+<script>
+  const listNode = document.querySelector('#myList');
+
+  function removeListFirstChild() {
+      listNode.removeChild(listNode.firstChild);
+  }
+
+  function removeAllListChildren() {
+      while (listNode.firstChild) {
+      listNode.removeChild(listNode.firstChild);
+      }
+  }
+
+  function removeList() {
+      listNode.remove();
+  }
+
+</script>
+
+
+</body>
+</html>
